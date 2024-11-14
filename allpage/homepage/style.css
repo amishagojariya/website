@@ -198,24 +198,22 @@ main .head {
   border-radius: 50%;
 }
 
-.happy-Customer{
+.happy-Customer {
   width: 100%;
-  overflow: scroll;
-  
+  height: 660px;
   background-color: #33333311;
 }
 
-.happy-Customer .Reviews{
+.happy-Customer .Reviews {
   display: flex;
-  padding: 10px;
-  font-size: 28px;
-  font-weight: 600;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 800;
   align-items: center;
   gap: 8px;
-  
 }
 
-.reviews-page{
+.reviews-page {
   width: 80%;
   display: flex;
   gap: 20px;
@@ -230,7 +228,7 @@ main .head {
   gap: 10px;
   background-color: #ffffff;
 }
-.customer-Reviews{
+.customer-Reviews {
   width: 50%;
   font-size: 18px;
   display: flex;
@@ -239,11 +237,11 @@ main .head {
   text-align: center;
 }
 
-.customer-img img{
-  width: 270px;
+.customer-img img {
+  width: 240px;
 }
 
-.customer-img{
+.customer-img {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -251,7 +249,61 @@ main .head {
   font-size: 23px;
 }
 
-.customer-img .stars{
+.customer-img .stars {
   display: flex;
   gap: 5px;
+}
+
+.membership {
+  width: 100%;
+  padding: 20px;
+}
+
+.book-appointment {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin: 50px auto;
+
+}
+.book-appointment .form {
+  width: 500px;
+  height: 500px;
+  padding: 30px;
+  margin: 10px auto;
+  border-radius: 50%;
+  background-color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-size: 34px;
+  outline: 5px solid gray;
+  
+}
+
+.form img {
+  margin: 50px auto;
+}
+
+.form button {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 23px;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 19px;
+}
+
+.memebers {
+  width: 50%;
+}
+
+.memebers img {
+  outline: 2px solid #333;
+  margin: 0px auto;
+  padding: 5px;
+  width: 80%;
 }
